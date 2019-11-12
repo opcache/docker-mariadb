@@ -37,7 +37,6 @@ RUN export CPU=`cat /proc/cpuinfo | grep -c processor` && \
         libstdc++ \
         libxml2 \
         pwgen \
-        proj4 \
         && \
     \
     # Add group and user for mysql
