@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM tiredofit/alpine:3.10
 LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
 
 ENV MARIADB_VERSION=10.3.20 \
